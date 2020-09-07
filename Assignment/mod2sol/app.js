@@ -4,7 +4,6 @@
 var toBuyList = [
   { name: "cokes", quantity: 20 },
   { name: "cookies", quantity: 10 },
-  { name: "chocolates", quantity: 30 },
   { name: "pizzas", quantity: 15 },
   { name: "chips", quantity: 50 }
 ];
@@ -60,7 +59,6 @@ function ShoppingListCheckOffService() {
     boughtItems.push(item);
   };
   
-  //private functions
   function removeFromItemsToBuy(itemIndex) {
 	  itemsToBuy.splice(itemIndex, 1);
   };
