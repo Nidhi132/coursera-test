@@ -2,10 +2,12 @@
 'use strict';
 
 var toBuyList = [
-  { name: "cokes", quantity: 20 },
+  { name: "milkshakes", quantity: 20 },
   { name: "cookies", quantity: 10 },
+  { name: "chocolates", quantity: 30 },
+  { name: "ice-creams", quantity: 20 },
   { name: "pizzas", quantity: 15 },
-  { name: "chips", quantity: 50 }
+  { name: "packets of chips", quantity: 50 }
 ];
 
 var boughtList = [];
