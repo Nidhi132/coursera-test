@@ -1,0 +1,13 @@
+<div>
+  <span ui-sref="home"><a>Home</a></span>
+  <span> / </span>	
+  <span ui-sref="categories"><a>Categories</a></span>
+  <span> / </span>	
+  <span ui-sref-active="active" ui-sref="items">Items</span>
+</div>
+<div>
+  <h1>List of menu items <small>(Category {{ menuItems.category }})</small></h1>
+</div>
+<div>
+  <items-component items="menuItems.items"></items-component>
+</div>
